@@ -187,7 +187,7 @@ aux=temp.getSiguiente(); //al axuiliar se le asiganra el siguiente de temp
 nuevo.setSiguiente(aux); //al nuevo se le asignra el siguiente del auxiliar
 nuevo.setAnterior(temp);
 temp.setSiguiente(nuevo); //y el temp se le asignrara el siguiente del nuevo para que no se pierda
-aux.setAnterior(nuevo);
+aux.setAnterior(nuevo); //probando
   break; 
 }
 temp=temp.getSiguiente();
